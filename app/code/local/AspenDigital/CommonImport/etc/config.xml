@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<modules>
+		<AspenDigital_CommonImport>
+			<version>1.0</version>
+		</AspenDigital_CommonImport>
+	</modules>
+
+	<global>
+		<models>
+			<commonimport>
+				<class>AspenDigital_CommonImport_Model</class>
+			</commonimport>
+
+			<catalog>
+				<rewrite>
+					<product>AspenDigital_CommonImport_Model_Catalog_Product</product>
+				</rewrite>
+			</catalog>
+		</models>
+	</global>
+
+</config>
